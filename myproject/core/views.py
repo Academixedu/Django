@@ -7,3 +7,6 @@ def sample_get_view(request):
 def sample1(request):
     return JsonResponse({"message":"Hello JSON"}) 
 
+def sample2(request):
+    return JsonResponse({"message":"Hello JSON"}) 
+
